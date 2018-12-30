@@ -1,0 +1,4 @@
+<launch>
+  <node name="guide_mega"   pkg="okd_hsr_sample" type="guide_mega" >
+  </node>
+</launch>

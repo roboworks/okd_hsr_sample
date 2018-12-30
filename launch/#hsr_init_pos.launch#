@@ -1,0 +1,10 @@
+<launch>
+  <node name="hsr_init_pos"   pkg="okd_hsr_sample" type="hsr_init_pos.py"  output="screen">
+    <param name="init_pos_x" value="10.0"/> 
+    <param name="init_pos_y" value="10.0"/>
+    <param name="init_pos_th" value="0.0"/>
+</node>
+</launch>
+
+
+

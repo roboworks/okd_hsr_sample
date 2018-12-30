@@ -1,0 +1,10 @@
+#HSRが北斗館を案内するデモ
+# Hiroyuki Okada, 30 Dec 2018
+
+<launch>
+  <node name="guide_hokuto"   pkg="okd_hsr_sample" type="guide_hokuto.py" output="screen">
+    <param name="init_pos_x" value=" 0.0"/> 
+    <param name="init_pos_y" value=" 0.0"/>
+    <param name="init_pos_th" value="0.0"/>
+</node>
+</launch>

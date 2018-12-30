@@ -1,0 +1,7 @@
+<launch>
+  <node name="hsr_init_pos"   pkg="okd_hsr_sample" type="hsr_init_pos" >
+    <param name="init_pos_x" value="0.0"/> #単位はメートル
+    <param name="init_pos_y" value="0.0"/> #単位はメートル
+    <param name="init_pos_th" value="0.0"/>    #単位はラジアン
+  </node>
+</launch>
